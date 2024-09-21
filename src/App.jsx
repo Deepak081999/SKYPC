@@ -1,10 +1,10 @@
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
-import FeatureSection from "./components/FeatureSection";
-import Workflow from "./components/Workflow";
 import Footer from "./components/Footer";
-import Pricing from "./components/Pricing";
-import Testimonials from "./components/Testimonials";
+import Categorie from "./components/Categories.jsx";
+import Blog from "./components/Blogs.jsx";
+import Service from "./components/Service.jsx";
+import Recommended_Services from "./components/Recommended _Services.jsx";
 
 const App = () => {
   return (
@@ -12,10 +12,10 @@ const App = () => {
       <Navbar />
       <div className="max-w-7xl mx-auto pt-20 px-6">
         <HeroSection />
-        <FeatureSection />
-        <Workflow />
-        <Pricing />
-        <Testimonials />
+        <Service />
+        <Categorie />
+        <Recommended_Services />
+        <Blog />
         <Footer />
       </div>
     </>
